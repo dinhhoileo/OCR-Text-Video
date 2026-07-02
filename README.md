@@ -1,15 +1,15 @@
 # VideoOCR
 
-Native iOS app for OCR text visible inside videos. The app runs OCR locally on device with Apple's Vision framework, so large videos do not need to be uploaded to a web service.
+A macOS app for extracting text from videos using OCR. The app runs locally on your Mac with Apple's Vision framework, so large videos do not need to be uploaded to a web service.
 
 ## Features
 
-- Pick a video from Photos or Files.
-- Read visible text from video frames with configurable interval.
-- **Center-Focus Cropping**: Automatically crop and focus OCR on the central area of the frame (adjustable ratio, e.g., 70% of center) where the main content usually lies.
-- **Pure Text Output**: Extract and show all visible text in chronological order, with source frame images next to each text block.
+- Open a video from your Mac.
+- Extract visible text from video frames with a configurable interval.
+- **Center-Focus Cropping**: Automatically crop and focus OCR on the central area of the frame (adjustable ratio, e.g. 70% of the center) where the main content usually lies.
+- **Pure Text Output**: Extract and display all visible text in chronological order, with source frame images next to each text block.
 - Choose English or Vietnamese OCR recognition language.
-- View OCR blocks by timestamp.
+- View OCR results by timestamp.
 - Copy or share Markdown output.
 
 ## Download the macOS app
@@ -28,7 +28,7 @@ After downloading, open the DMG, drag VideoOCR to Applications, and launch it fr
 xcodegen generate
 ```
 
-Open `VideoOCR.xcodeproj` in Xcode and run the `VideoOCR` scheme on an iPhone or Simulator.
+Open `VideoOCR.xcodeproj` in Xcode and run the `VideoOCR` scheme on your Mac.
 
 If command-line builds fail with `xcodebuild requires Xcode`, install/open Xcode first, then switch the active developer directory:
 
