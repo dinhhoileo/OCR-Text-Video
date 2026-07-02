@@ -1,59 +1,37 @@
 # VideoOCR
 
-A macOS app for extracting text from videos using OCR. The app runs locally on your Mac with Apple's Vision framework, so large videos do not need to be uploaded to a web service.
+VideoOCR is a simple macOS app for extracting text from videos using OCR. The app runs locally on your Mac, so your videos do not need to be uploaded to any online service.
 
-## Features
+## What it does
 
-- Open a video from your Mac.
-- Extract visible text from video frames with a configurable interval.
-- **Center-Focus Cropping**: Automatically crop and focus OCR on the central area of the frame (adjustable ratio, e.g. 70% of the center) where the main content usually lies.
-- **Pure Text Output**: Extract and display all visible text in chronological order, with source frame images next to each text block.
-- Choose English or Vietnamese OCR recognition language.
-- View OCR results by timestamp.
-- Copy or share Markdown output.
+- Open a video file on your Mac.
+- Extract visible text from the video.
+- Show the extracted text in a simple view.
 
-## Download the macOS app
+## Download the app
 
-You can download the latest macOS build as a DMG file from the GitHub repository:
+You can download the latest macOS build from the GitHub repository:
 
-- Open the repository on GitHub
-- Go to the dist folder
-- Download [dist/VideoOCR.dmg](dist/VideoOCR.dmg)
+- Open the repository on GitHub.
+- Go to the dist folder.
+- Download [dist/VideoOCR.dmg](dist/VideoOCR.dmg).
 
-After downloading, open the DMG, drag VideoOCR to Applications, and launch it from there.
+After downloading:
 
-## Generate the Xcode project
+1. Open the DMG file.
+2. Drag VideoOCR into Applications.
+3. Open the app from Applications.
 
-```bash
-xcodegen generate
-```
+## If the app cannot be opened on macOS
 
-Open `VideoOCR.xcodeproj` in Xcode and run the `VideoOCR` scheme on your Mac.
-
-If command-line builds fail with `xcodebuild requires Xcode`, install/open Xcode first, then switch the active developer directory:
+If macOS shows a warning like “cannot be opened because it is from an unidentified developer” or blocks the app, you can try this command in Terminal:
 
 ```bash
-sudo xcode-select -s /Applications/Xcode.app/Contents/Developer
+xattr -dr com.apple.quarantine /Applications/VideoOCR.app
 ```
 
-## Command Line Interface (macOS)
+Then try opening the app again.
 
-You can also run the OCR engine directly from your Mac terminal:
+## Build from source
 
-```bash
-swift video_ocr_macos.swift <video-path> [options]
-
-Options:
-  --output <path>        Markdown output path. Default: video_ocr_output.md
-  --jsonl <path>         Optional raw JSONL output path
-  --interval <seconds>   Sample interval. Default: 1
-  --max-size <pixels>    Max frame size for OCR. Default: 1600
-  --language <tag>       OCR language. Default: en-US
-  --center-crop <ratio>  Center crop ratio (0.3–1.0). Default: 0.7
-```
-
-## Notes
-
-- A smaller frame interval is more accurate but slower.
-- All OCR happens locally on the device.
-- Center focus cropping helps filter out irrelevant background or sidebar text, focusing only on the central content.
+If you want to build it yourself, open the Xcode project and run the app on your Mac.
