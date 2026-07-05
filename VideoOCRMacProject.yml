@@ -1,0 +1,33 @@
+name: VideoOCRMac
+options:
+  bundleIdPrefix: com.sonix
+  deploymentTarget:
+    macOS: "14.0"
+  createIntermediateGroups: true
+settings:
+  base:
+    SWIFT_VERSION: "5.0"
+    MARKETING_VERSION: "1.0"
+    CURRENT_PROJECT_VERSION: "1"
+targets:
+  VideoOCRMac:
+    type: application
+    platform: macOS
+    deploymentTarget: "14.0"
+    sources:
+      - path: VideoOCRMac
+    info:
+      path: VideoOCRMac/Info.plist
+      properties:
+        CFBundleDisplayName: VideoOCR
+        CFBundleName: VideoOCR
+        CFBundlePackageType: APPL
+        LSApplicationCategoryType: public.app-category.productivity
+        NSHumanReadableCopyright: ""
+        CFBundleIconFile: AppIcon.icns
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.sonix.videoocr.mac
+        PRODUCT_NAME: VideoOCR
+        CODE_SIGN_STYLE: Manual
+        CODE_SIGN_IDENTITY: "-"

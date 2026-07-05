@@ -1,0 +1,338 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02215EC669D469A028593BB2 /* AIFormatterService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4972B218673A7DF9AE33D59 /* AIFormatterService.swift */; };
+		195131C5201CE45BF8EC8689 /* VideoOCRMacApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F30BEF6E3B8838818AAA06 /* VideoOCRMacApp.swift */; };
+		343853A6E20DAA98FFF7ADFF /* MacImagePreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE799BE54487FD483061670 /* MacImagePreviewView.swift */; };
+		790C8C8C26DE226FB59A7E5E /* MacOCRModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88BC014074780128FFD87F22 /* MacOCRModels.swift */; };
+		87B8C520E78FEAEEFF31A71D /* AISettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D0C7249FDD781434659EAC /* AISettingsView.swift */; };
+		8CB2A9FC6D43D1704F91C560 /* MacOCRViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706E9C1A1757624C44978F5C /* MacOCRViewModel.swift */; };
+		96FF7247F97BD47CF46B4BDE /* MacContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A16F81C294EE3639F90284 /* MacContentView.swift */; };
+		E06A9C6C23928CEFD3309A93 /* MacOCRService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DD87E62292AF7BAC395155 /* MacOCRService.swift */; };
+		EF16EA6B8B370FBFA3C19BDA /* AppIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 9177B8958BD77150B7B71A7D /* AppIcon.icns */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		35F30BEF6E3B8838818AAA06 /* VideoOCRMacApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoOCRMacApp.swift; sourceTree = "<group>"; };
+		706E9C1A1757624C44978F5C /* MacOCRViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacOCRViewModel.swift; sourceTree = "<group>"; };
+		88BC014074780128FFD87F22 /* MacOCRModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacOCRModels.swift; sourceTree = "<group>"; };
+		9177B8958BD77150B7B71A7D /* AppIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = AppIcon.icns; sourceTree = "<group>"; };
+		A815B3B9DA58CB38922828C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		B4972B218673A7DF9AE33D59 /* AIFormatterService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIFormatterService.swift; sourceTree = "<group>"; };
+		B9A16F81C294EE3639F90284 /* MacContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacContentView.swift; sourceTree = "<group>"; };
+		C9DD87E62292AF7BAC395155 /* MacOCRService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacOCRService.swift; sourceTree = "<group>"; };
+		DEE799BE54487FD483061670 /* MacImagePreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacImagePreviewView.swift; sourceTree = "<group>"; };
+		E6D0C7249FDD781434659EAC /* AISettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AISettingsView.swift; sourceTree = "<group>"; };
+		FC0DF327E21D62503D5DD115 /* VideoOCRMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoOCRMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		138133484A4D1B8C20F2E83C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC0DF327E21D62503D5DD115 /* VideoOCRMac.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1B0115D15590A5D634BABFC8 /* VideoOCRMac */ = {
+			isa = PBXGroup;
+			children = (
+				B4972B218673A7DF9AE33D59 /* AIFormatterService.swift */,
+				E6D0C7249FDD781434659EAC /* AISettingsView.swift */,
+				9177B8958BD77150B7B71A7D /* AppIcon.icns */,
+				A815B3B9DA58CB38922828C4 /* Info.plist */,
+				B9A16F81C294EE3639F90284 /* MacContentView.swift */,
+				DEE799BE54487FD483061670 /* MacImagePreviewView.swift */,
+				88BC014074780128FFD87F22 /* MacOCRModels.swift */,
+				C9DD87E62292AF7BAC395155 /* MacOCRService.swift */,
+				706E9C1A1757624C44978F5C /* MacOCRViewModel.swift */,
+				35F30BEF6E3B8838818AAA06 /* VideoOCRMacApp.swift */,
+			);
+			path = VideoOCRMac;
+			sourceTree = "<group>";
+		};
+		97DE3267DF4FBC42CD06206C = {
+			isa = PBXGroup;
+			children = (
+				1B0115D15590A5D634BABFC8 /* VideoOCRMac */,
+				138133484A4D1B8C20F2E83C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D014BE10E7032142AF3B5C41 /* VideoOCRMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 488D4860E629068A4F88684F /* Build configuration list for PBXNativeTarget "VideoOCRMac" */;
+			buildPhases = (
+				6E8D8472C2FFD0279FBFC827 /* Sources */,
+				C36938B6DCE1052D73BC840C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VideoOCRMac;
+			packageProductDependencies = (
+			);
+			productName = VideoOCRMac;
+			productReference = FC0DF327E21D62503D5DD115 /* VideoOCRMac.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		277A9A02517FE758C1D3C804 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					D014BE10E7032142AF3B5C41 = {
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 33836E2A7FBD214F765A00A4 /* Build configuration list for PBXProject "VideoOCRMac" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 97DE3267DF4FBC42CD06206C;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 138133484A4D1B8C20F2E83C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D014BE10E7032142AF3B5C41 /* VideoOCRMac */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C36938B6DCE1052D73BC840C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF16EA6B8B370FBFA3C19BDA /* AppIcon.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6E8D8472C2FFD0279FBFC827 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02215EC669D469A028593BB2 /* AIFormatterService.swift in Sources */,
+				87B8C520E78FEAEEFF31A71D /* AISettingsView.swift in Sources */,
+				96FF7247F97BD47CF46B4BDE /* MacContentView.swift in Sources */,
+				343853A6E20DAA98FFF7ADFF /* MacImagePreviewView.swift in Sources */,
+				790C8C8C26DE226FB59A7E5E /* MacOCRModels.swift in Sources */,
+				E06A9C6C23928CEFD3309A93 /* MacOCRService.swift in Sources */,
+				8CB2A9FC6D43D1704F91C560 /* MacOCRViewModel.swift in Sources */,
+				195131C5201CE45BF8EC8689 /* VideoOCRMacApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		452A3F09FDEEE5DF598BE17E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = VideoOCRMac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sonix.videoocr.mac;
+				PRODUCT_NAME = VideoOCR;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		638D8CF51D89FAD35F84F966 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		82E7BA003DDC88CB06BB8BBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = VideoOCRMac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sonix.videoocr.mac;
+				PRODUCT_NAME = VideoOCR;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A47DCA1B7868F907D38E24B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		33836E2A7FBD214F765A00A4 /* Build configuration list for PBXProject "VideoOCRMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				638D8CF51D89FAD35F84F966 /* Debug */,
+				A47DCA1B7868F907D38E24B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		488D4860E629068A4F88684F /* Build configuration list for PBXNativeTarget "VideoOCRMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82E7BA003DDC88CB06BB8BBA /* Debug */,
+				452A3F09FDEEE5DF598BE17E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 277A9A02517FE758C1D3C804 /* Project object */;
+}
